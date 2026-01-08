@@ -10,6 +10,10 @@ class Program():
         print('This will get executed after constructor is initialised')
 
 
+    def test_program(self):
+        print('This will override test program')
+
+
 
 
 
