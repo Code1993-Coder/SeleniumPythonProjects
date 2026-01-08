@@ -21,10 +21,14 @@ class Calculator:
         self.result=self.a/self.b
         return self.result
 
-calc=Calculator(a=20,b=20)
-print(calc.addition())
-print(calc.subtraction())
-print(calc.multiplication())
-print(calc.division())
+    def modulus(self):
+        self.result=self.a%self.b
+        return self.result
 
+calc=Calculator(a=20,b=20)
+print("Add:",calc.addition())
+print("Sub:",calc.subtraction())
+print("Mul:",calc.multiplication())
+print("Div:",calc.division())
+print("Mod:",calc.modulus())
 
