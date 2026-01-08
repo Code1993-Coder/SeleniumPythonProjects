@@ -10,7 +10,7 @@ class icecream:
             "ButterScotch": {"Large": 80, "Small": 60}
         }
 
-        print("Welcome to Natural Ice Cream!")
+        print("Welcome to Natural Ice Cream!Enjoy")
 
         # Keep asking until a valid flavour is entered
         while True:
